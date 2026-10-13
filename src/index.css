@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-canvas: #090B10;
+    --bg-panel: #11151E;
+    --border-hairline: #1F2430;
+    --accent-amber: #F59E0B;
+  }
+
+  body {
+    background-color: #090B10;
+    color: #F3F4F6;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    overflow-x: hidden;
+  }
+
+  /* Custom scrollbars for timeline and asset shelves */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0D1017;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #252B3B;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3B4357;
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "CineCosmos Studio",
+  "description": "Stop-motion animation and AI character consistency studio with OpenCut-inspired multi-track timeline, FFmpeg video embedding, and Google Flow episodic scripting.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
